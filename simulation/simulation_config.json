@@ -1,0 +1,46 @@
+{
+  "simulation_name": "5G-NTN-AgriDrone-Baseline",
+  "version": "1.0",
+  "author": "Mudassir Hussain",
+  "date": "2026-04-28",
+  "description": "Baseline simulation configuration for Unit 3 design validation",
+
+  "network": {
+    "5g_coverage_pct": 70,
+    "ntn_coverage_pct": 99,
+    "5g_latency_ms": 8.5,
+    "ntn_latency_ms": 35,
+    "5g_bandwidth_mbps": 1000,
+    "ntn_bandwidth_mbps": 100,
+    "failover_trigger_rssi_dbm": -90
+  },
+
+  "drones": {
+    "count": 5,
+    "flight_altitude_m": 50,
+    "speed_ms": 10,
+    "battery_capacity_mah": 5000,
+    "sensor_types": ["multispectral", "thermal", "lidar", "gps"],
+    "data_rate_mbps": 50
+  },
+
+  "field": {
+    "area_hectares": 100,
+    "crop_type": "corn",
+    "grid_resolution_m": 10,
+    "irrigation_zones": 4
+  },
+
+  "ai_model": {
+    "ndvi_threshold_healthy": 0.6,
+    "ndvi_threshold_stressed": 0.4,
+    "target_accuracy_pct": 90,
+    "inference_latency_ms": 15
+  },
+
+  "expected_outcomes": {
+    "water_reduction_pct": 35,
+    "yield_improvement_pct": 15,
+    "cloud_bandwidth_reduction_pct": 70
+  }
+}
