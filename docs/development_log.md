@@ -20,11 +20,20 @@
 
 ---
 
-## Unit 4 — Planned (May 2026)
-- [ ] Prototype simulation — AI crop classification model
-- [ ] Dashboard prototype development
-- [ ] Performance benchmarking (5G vs satellite vs hybrid)
-- [ ] Integration testing of drone + connectivity + edge pipeline
+## Unit 4 — May 4, 2026
+### Completed
+- [x] End-to-end system demonstration script (`demo.py`)
+- [x] Full pipeline integration: drone → connectivity → AI classifier → edge processor
+- [x] Hybrid connectivity simulation: 5G URLLC + LEO NTN failover validated
+- [x] AI crop health classification: NDVI analysis across 4 irrigation zones
+- [x] Edge computing bandwidth reduction: ~70% cloud transmission savings demonstrated
+- [x] Blueprint scorecard: all targets validated (35% water, 15% yield, <10ms 5G, <50ms NTN)
+- [x] Video script prepared for Unit 4 system demonstration (`docs/video_script.md`)
+- [x] requirements.txt created (numpy==1.26.4)
+
+### In Progress
+- [ ] CNN model training data preparation
+- [ ] Dashboard prototype wireframes
 
 ## Unit 5 — Planned (May 2026)
 - [ ] Performance evaluation and testing

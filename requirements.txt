@@ -1,0 +1,6 @@
+# Project Dependencies
+# 5G and Satellite-Based AI Drone System for Precision Agriculture
+# All core modules use Python 3.x standard library only
+
+# Testing framework
+pytest>=7.0.0
