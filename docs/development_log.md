@@ -35,15 +35,31 @@
 - [ ] CNN model training data preparation
 - [ ] Dashboard prototype wireframes
 
-## Unit 5 — Planned (May 2026)
-- [ ] Performance evaluation and testing
-- [ ] Latency benchmarking (URLLC < 10ms, NTN < 50ms)
-- [ ] Water consumption simulation results
+## Unit 5 — May 8, 2026
+### Completed
+- [x] Time-series trend analysis algorithm (linear regression on NDVI history)
+- [x] NTN timing advance calculation (3GPP TR 38.821 slant range geometry)
+- [x] Doppler shift compensation for LEO satellite connectivity
+- [x] GPS path optimization using nearest-neighbor heuristic
+- [x] Edge model update mechanism with validation and rollback
+- [x] Comprehensive unit testing: 77 tests across 4 modules (all passing)
+- [x] White-box testing (classifier, connectivity, edge) + Black-box testing (telemetry)
+- [x] Git tags v1.0 and v2.0 created with GitHub releases
 
-## Unit 6 — Planned (June 2026)
-- [ ] Final system integration
-- [ ] Security audit (zero-trust validation)
-- [ ] Documentation finalization
+---
+
+## Unit 6 — May 15, 2026
+### Completed
+- [x] Full system integration pipeline (SystemIntegrationPipeline class)
+- [x] Inter-module communication: Drone -> Connectivity -> AI -> Edge -> Cloud
+- [x] Performance benchmark suite (5 benchmarks, all passing)
+- [x] Pipeline latency: 0.061ms avg (target < 10ms) — PASS
+- [x] Throughput: ~29,000 readings/sec (target >= 50 r/s) — PASS
+- [x] AI accuracy: 100% (target >= 90%) — PASS
+- [x] Edge bandwidth reduction: 70% (target >= 70%) — PASS
+- [x] Memory footprint: 0.14 MB peak (target < 512 MB) — PASS
+- [x] Git tag v3.0 created with GitHub release
+- [x] Technical report (Chapters 4, 5, 6) completed
 
 ## Unit 7 — Planned (June 2026)
 - [ ] Final report preparation
